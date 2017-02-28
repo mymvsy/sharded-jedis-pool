@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+	http://www.springframework.org/schema/aop 
+	http://www.springframework.org/schema/aop/spring-aop-3.0.xsd 
+	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context/spring-context-3.0.xsd"
+	default-lazy-init="true" default-autowire="byName">
+
+	<bean id="shardedJedisPool" class="redis.clients.jedis.ShardedJedisSentinelPool">
+		<constructor-arg index="0" ref="supportKeyValueNotEqualObject" />
+		<constructor-arg index="1" ref="jedisPoolConfig"/>
+		<constructor-arg index="2" value="abcd1234"/>
+	</bean>
+
+	<bean id="supportKeyValueNotEqualObject" class="redis.clients.jedis.SupportKeyValueNotEqualObject">
+		<constructor-arg index="0" value="test6009" />
+		<constructor-arg index="1" value="10.165.126.195:26009" />
+	</bean>
+
+	<!-- Jedis连接池配置 -->
+	<bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+		<property name="maxTotal" value="400"></property>
+		<property name="maxIdle" value="200"></property>
+		<property name="minEvictableIdleTimeMillis" value="300000"></property>
+		<property name="numTestsPerEvictionRun" value="3"></property>
+		<property name="timeBetweenEvictionRunsMillis" value="60000"></property>
+		<property name="maxWaitMillis" value="5000"></property>
+	</bean>
+	
+
+	<!--<bean id="shardedJedisPool" class="redis.clients.jedis.ShardedJedisPool">-->
+		<!--<constructor-arg index="0" ref="jedisPoolConfig" />-->
+		<!--<constructor-arg index="1">-->
+			<!--<list>-->
+				<!--<ref bean="jedis.shardInfo" />-->
+			<!--</list>-->
+		<!--</constructor-arg>-->
+	<!--</bean>-->
+
+	<!--<bean id="jedis.shardInfo" class="redis.clients.jedis.JedisShardInfo">-->
+		<!--<constructor-arg index="0" value="${redis_ip}" />-->
+		<!--<constructor-arg index="1" value="${redis_port}" />-->
+	<!--</bean>-->
+
+	<!--<bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">-->
+		<!--<property name="maxActive" value="100" />-->
+		<!--<property name="maxIdle" value="100" />-->
+		<!--<property name="maxWait" value="5000" />-->
+		<!--<property name="testOnBorrow" value="true" />-->
+	<!--</bean> -->
+	
+</beans>
