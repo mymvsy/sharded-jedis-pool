@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3002f85b-402e-47f1-bd8d-a3e26bd94511" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/redis/clients/jedis/SupportKeyValueNotEqualObject.java" afterPath="$PROJECT_DIR$/src/main/java/redis/clients/jedis/SupportKeyValueNotEqualObject.java" />
     </list>
     <ignored path="sharded-jedis-sentinel-pool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,14 +57,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SupportKeyValueNotEqualObject.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SupportKeyValueNotEqualObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/redis/clients/jedis/SupportKeyValueNotEqualObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8573009">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11415525">
+              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,11 +103,12 @@
         <option value="$PROJECT_DIR$/src/test/java/redis/clients/jedis/pool/ReaderUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/redis/clients/jedis/pool/StringBufferFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/redis/clients/jedis/ShardedJedisSentinelPool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/redis/clients/jedis/SupportKeyValueNotEqualObject.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/redis/clients/jedis/ShardedJedisSentinelPoolTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/redis.xml" />
         <option value="$PROJECT_DIR$/src/test/java/redis/clients/jedis/ShardedJedisSentinelPoolSpringTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/redis/clients/jedis/SupportKeyValueNotEqualObject.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -893,7 +906,7 @@
       <workItem from="1487818373304" duration="4249000" />
       <workItem from="1487833022957" duration="1510000" />
       <workItem from="1487900277857" duration="154000" />
-      <workItem from="1488281588443" duration="4658000" />
+      <workItem from="1488281588443" duration="4978000" />
     </task>
     <task id="LOCAL-00001" summary="1.go">
       <created>1488286212762</created>
@@ -937,7 +950,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46222000" />
+    <option name="totallyTimeSpent" value="46542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1055,13 +1068,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.0/commons-pool2-2.0.jar!/org/apache/commons/pool2/BasePooledObjectFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/redis/clients/jedis/pool/ReaderUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1429,11 +1435,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/redis/clients/jedis/SupportKeyValueNotEqualObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8573009">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11415525">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
