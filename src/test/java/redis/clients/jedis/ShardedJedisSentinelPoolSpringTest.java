@@ -17,7 +17,7 @@ public class ShardedJedisSentinelPoolSpringTest extends TestCase {
 		ShardedJedis j = null;
 		try {
 			j = pool.getResource();
-
+			j = pool.getResource();
 			j.set("test_key_value_not_equal_key", "test_key_value_not_equal_value");
 
 			System.out.println(j.get("test_key_value_not_equal_key"));

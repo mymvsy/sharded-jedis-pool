@@ -15,12 +15,12 @@
 	<bean id="shardedJedisPool" class="redis.clients.jedis.ShardedJedisSentinelPool">
 		<constructor-arg index="0" ref="supportKeyValueNotEqualObject" />
 		<constructor-arg index="1" ref="jedisPoolConfig"/>
-		<constructor-arg index="2" value="abcd1234"/>
+		<constructor-arg index="2" value="1234"/>
 	</bean>
 
 	<bean id="supportKeyValueNotEqualObject" class="redis.clients.jedis.SupportKeyValueNotEqualObject">
-		<constructor-arg index="0" value="test6009" />
-		<constructor-arg index="1" value="10.165.126.195:26009" />
+		<constructor-arg index="0" value="a|b|c|d" />
+		<constructor-arg index="1" value="10.0.0.1:27000" />
 	</bean>
 
 	<!-- Jedis连接池配置 -->
