@@ -4,7 +4,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 /**
  * 对Spring提供的StringRedisSerializer封装
- * Created by hongda.liang on 2017/2/8.
+ * Created by haoming.liang on 2017/2/8.
  */
 public class StringRedisSerializerUtils  {
 

@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3002f85b-402e-47f1-bd8d-a3e26bd94511" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_protostuff_protostuff_api_1_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_protostuff_protostuff_collectionschema_1_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_protostuff_protostuff_core_1_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_protostuff_protostuff_runtime_1_3_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/redis/clients/jedis/RedisCallBack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/redis/clients/jedis/ShardedJedisClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/redis/clients/jedis/serial/ProtoStuffUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/redis/clients/jedis/serial/StringRedisSerializerUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sharded-jedis-sentinel-pool.iml" afterPath="$PROJECT_DIR$/sharded-jedis-sentinel-pool.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/redis/clients/jedis/serial/StringRedisSerializerUtils.java" afterPath="$PROJECT_DIR$/src/main/java/redis/clients/jedis/serial/StringRedisSerializerUtils.java" />
     </list>
     <ignored path="sharded-jedis-sentinel-pool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +28,8 @@
       <file leaf-file-name="ShardedJedisSentinelPool.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/redis/clients/jedis/ShardedJedisSentinelPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="187" column="31" lean-forward="true" selection-start-line="187" selection-start-column="31" selection-end-line="187" selection-end-column="31" />
+            <state relative-caret-position="9625">
+              <caret line="405" column="40" lean-forward="false" selection-start-line="405" selection-start-column="40" selection-end-line="405" selection-end-column="40" />
               <folding>
                 <element signature="e#1190#1206#0" expanded="true" />
                 <element signature="e#5345#5361#0" expanded="true" />
@@ -54,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShardedJedisClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShardedJedisClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/redis/clients/jedis/ShardedJedisClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="190" column="52" lean-forward="false" selection-start-line="190" selection-start-column="52" selection-end-line="190" selection-end-column="52" />
+            <state relative-caret-position="697">
+              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2236#2266#0" expanded="true" />
@@ -121,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringRedisSerializerUtils.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StringRedisSerializerUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/redis/clients/jedis/serial/StringRedisSerializerUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            <state relative-caret-position="150">
+              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -192,12 +180,13 @@
         <option value="$PROJECT_DIR$/src/main/java/redis/clients/jedis/SupportKeyValueNotEqualObject.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/redis/clients/jedis/ShardedJedisSentinelPoolSpringTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/redis/clients/jedis/ShardedJedisSentinelPool.java" />
         <option value="$PROJECT_DIR$/src/test/resources/redis.xml" />
         <option value="$PROJECT_DIR$/src/main/java/redis/clients/jedis/serial/ProtostuffSerializer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/redis/clients/jedis/RedisCallBack.java" />
         <option value="$PROJECT_DIR$/src/main/java/redis/clients/jedis/ShardedJedisClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/redis/clients/jedis/ShardedJedisSentinelPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/redis/clients/jedis/serial/StringRedisSerializerUtils.java" />
       </list>
     </option>
   </component>
@@ -1076,7 +1065,7 @@
       <workItem from="1487833022957" duration="1510000" />
       <workItem from="1487900277857" duration="154000" />
       <workItem from="1488281588443" duration="4978000" />
-      <workItem from="1563243441144" duration="20576000" />
+      <workItem from="1563243441144" duration="23596000" />
     </task>
     <task id="LOCAL-00001" summary="1.go">
       <created>1488286212762</created>
@@ -1092,7 +1081,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563284625158</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.补充mget逻辑">
+      <created>1563286399594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563286399594</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1128,7 +1124,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67118000" />
+    <option name="totallyTimeSpent" value="70138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1219,7 +1215,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.go" />
     <MESSAGE value="1.测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.测试" />
+    <MESSAGE value="1.补充mget逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.补充mget逻辑" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1755,14 +1752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/redis/clients/jedis/serial/StringRedisSerializerUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/redis.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -1814,10 +1803,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/redis/clients/jedis/ShardedJedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2236#2266#0" expanded="true" />
+            <element signature="e#2520#4350#0" expanded="true" />
+            <element signature="e#4349#4350#0" expanded="true" />
+            <element signature="e#5669#6230#0" expanded="true" />
+            <element signature="e#6229#6230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/redis/clients/jedis/ShardedJedisSentinelPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="187" column="31" lean-forward="true" selection-start-line="187" selection-start-column="31" selection-end-line="187" selection-end-column="31" />
+        <state relative-caret-position="9625">
+          <caret line="405" column="40" lean-forward="false" selection-start-line="405" selection-start-column="40" selection-end-line="405" selection-end-column="40" />
           <folding>
             <element signature="e#1190#1206#0" expanded="true" />
             <element signature="e#5345#5361#0" expanded="true" />
@@ -1829,18 +1833,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/redis/clients/jedis/ShardedJedisClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/redis/clients/jedis/serial/StringRedisSerializerUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="190" column="52" lean-forward="false" selection-start-line="190" selection-start-column="52" selection-end-line="190" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2236#2266#0" expanded="true" />
-            <element signature="e#2520#4350#0" expanded="true" />
-            <element signature="e#4349#4350#0" expanded="true" />
-            <element signature="e#5669#6230#0" expanded="true" />
-            <element signature="e#6229#6230#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
