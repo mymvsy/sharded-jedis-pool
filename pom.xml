@@ -20,7 +20,7 @@
         </developer>
     </developers>
     <properties>
-        <spring.version>3.2.4.RELEASE</spring.version>
+        <spring.version>5.3.19</spring.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
